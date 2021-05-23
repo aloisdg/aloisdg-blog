@@ -79,6 +79,6 @@ let filterByPattern (includePattern: string Option) (excludePattern: string Opti
     Seq.filter (fun path -> patternPredicate includePattern excludePattern path) paths
 ```
 
-`FilterByPattern` was not written as is when I first wrote it. I posted a quick walkthrough: [Optimize boolean logic](#);
+`FilterByPattern` was not written as is when I first wrote it. I posted a quick walkthrough: [Optimize boolean logic](https://aloisdg.netlify.app/posts/optimize-boolean-logic/);
 
 The code comes from my open source project to clone GitLab organisation in one command line: Kamino! Check the [Pull Request](https://github.com/aloisdg/Kamino/pull/4/files).
