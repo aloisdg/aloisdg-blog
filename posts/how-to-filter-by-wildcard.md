@@ -37,7 +37,7 @@ public static IEnumerable<string> FilterByPattern(string includePattern, string 
     => paths.Where(patternPredicate);
 ```
 
-Finally lets write the `patternPredicate`:
+Finally lets write the `PatternPredicate`:
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
