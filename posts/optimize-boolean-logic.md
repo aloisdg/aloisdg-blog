@@ -15,24 +15,9 @@ I have a list of path I want to filter out:
     root/group2/subgroup2/project3
     root/group2/subgroup2/project4
 
-I want to keep only paths matching a specific pattern and remove all paths matching another specific pattern. To achieve the actual matching we will use [FileSystemName.MatchesSimpleExpression](https://docs.microsoft.com/en-us/dotnet/api/system.io.enumeration.filesystemname.matchessimpleexpression?view=net-5.0):
-
-> Verifies if the given expression matches the given name. Supports the following wildcards: '*' and '?'. The backslash character '\' escapes.
+I want to keep only paths matching a specific pattern and remove all paths matching another specific pattern. We have a `MatchWildcard` method returning `true` if it is a match or `false` if it dont. Our paths are a plain `IEnumerable<string>`, so our main function will be:
 
 ```csharp
-public static bool MatchesSimpleExpression (`ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = true);
-```
-
-Small notable caveat: `MatchesSimpleExpression` play with `ReadOnlySpan<char>` instead of string. No problem, lets add a small converter:
-
-```csharp
-public static ReadOnlySpan<char> StringToSpan(string s)
-    => new ReadOnlySpan<char>(s.ToCharArray());
-```
-
-Our paths are a plain `IEnumerable<string>`, so our main function will be:
-
-```C#
 public static IEnumerable<string> FilterByPattern(string includePattern, string excludePattern, IEnumerable<string> paths)
     => paths.Where(path =>
     {
@@ -45,7 +30,7 @@ public static IEnumerable<string> FilterByPattern(string includePattern, string 
 
 Our goal in this post is going to show how we can reduce and simplify the logic at work here.
 
-One more thing. Lets talk about predicate. A predicate is a function returning a boolean. Since the predicate host most of the logic, lets start by spliting the Predicate from the filter to work on it.
+One more thing. Lets talk about [predicate](https://docs.microsoft.com/en-us/dotnet/api/system.predicate-1?view=net-5.0). A predicate is a function returning a boolean. Since the predicate host most of the logic, lets start by spliting the Predicate from the filter to work on it.
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
@@ -83,12 +68,6 @@ public static string PatternPredicate(string includePattern, string excludePatte
 So the complete snippet is now:
 
 ```csharp
-public static ReadOnlySpan<char> StringToSpan(string s)
-    => new ReadOnlySpan<char>(s.ToCharArray());
-
-public static bool MatchWildcard(string pattern, string text)
-    => FileSystemName.MatchesSimpleExpression(StringToSpan(pattern), StringToSpan(text));
-
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
     (string.IsNullOrEmpty(includePattern) || MatchWildcard(includePattern, path)) &&
     (string.IsNullOrEmpty(excludePattern) || !MatchWildcard(excludePattern, path));
