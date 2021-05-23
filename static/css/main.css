@@ -80,11 +80,11 @@ small {
   }
 }
 a {
-  color: #7300e6;
+  color: #16b2d0;
   text-decoration: none;
 }
 body.dark a {
-  color: #c9f;
+  color: #66d9ef;
 }
 a:hover {
   text-decoration: underline;
@@ -225,7 +225,7 @@ body.dark .section-title {
   border-radius: 0.25rem;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.06) , 0 2px 2px rgba(0,0,0,0.04) , 0 4px 4px rgba(0,0,0,0.05) , 0 6px 6px rgba(0,0,0,0.06);
 }
-body.dark .card {
+body.dark .card:hover {
   box-shadow: 0 0 0 1px rgba(255,255,255,0.06) , 0 2px 2px rgba(255,255,255,0.04) , 0 4px 4px rgba(255,255,255,0.05) , 0 6px 6px rgba(255,255,255,0.06);
 }
 .card__title {
