@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: "aloisdgś blog",
+    title: "aloisdg's blog",
     description: "Personal blog of alois de gouvello.",
     lang: "en",
     siteUrl: "https://aloisdg.netlify.app/",
