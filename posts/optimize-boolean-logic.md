@@ -1,0 +1,102 @@
+---
+title: Optimize boolean logic
+date: 2021-05-23
+description: a quick walk through the optimization of a boolean expression 
+tags:
+  - dotnet
+  - boolean
+  - csharp
+---
+
+I have a list of path I want to filter out:
+
+    root/group1/subgroup1/project1
+    root/group2/subgroup1/project2
+    root/group2/subgroup2/project3
+    root/group2/subgroup2/project4
+
+I want to keep only paths matching a specific pattern and remove all paths matching another specific pattern. To achieve the actual matching we will use [FileSystemName.MatchesSimpleExpression](https://docs.microsoft.com/en-us/dotnet/api/system.io.enumeration.filesystemname.matchessimpleexpression?view=net-5.0):
+
+> Verifies if the given expression matches the given name. Supports the following wildcards: '*' and '?'. The backslash character '\' escapes.
+
+```csharp
+public static bool MatchesSimpleExpression (`ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = true);
+```
+
+Small notable caveat: `MatchesSimpleExpression` play with `ReadOnlySpan<char>` instead of string. No problem, lets add a small converter:
+
+```csharp
+public static ReadOnlySpan<char> StringToSpan(string s)
+    => new ReadOnlySpan<char>(s.ToCharArray());
+```
+
+Our paths are a plain `IEnumerable<string>`, so our main function will be:
+
+```C#
+public static IEnumerable<string> FilterByPattern(string includePattern, string excludePattern, IEnumerable<string> paths)
+    => paths.Where(path =>
+    {
+        let shouldKeep = string.IsNullOrEmpty(includePattern) ? MatchWildcard(includePattern, path) : true;
+        if (!shouldKeep)
+            return false;
+        return string.IsNullOrEmpty(excludePattern) ? !MatchWildcard(excludePattern, path) : true;
+    });
+```
+
+Our goal in this post is going to show how we can reduce and simplify the logic at work here.
+
+One more thing. Lets talk about predicate. A predicate is a function returning a boolean. Since the predicate host most of the logic, lets start by spliting the Predicate from the filter to work on it.
+
+```csharp
+public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
+    {
+        let shouldKeep = string.IsNullOrEmpty(includePattern) ? MatchWildcard(includePattern, path) : true;
+        if (!shouldKeep)
+            return false;
+        return string.IsNullOrEmpty(excludePattern) ? !MatchWildcard(excludePattern, path) : true;
+    });
+
+public static IEnumerable<string> FilterByPattern(string includePattern, string excludePattern, IEnumerable<string> paths)
+    => paths.Where(patternPredicate);
+```
+
+Alright now we will stop modifying `FilterByPattern` and focus on `PatternPredicate`. Since we are only dealing with boolean maybe there is a refactoring to do here. Lets switch from ternary to basic boolean logic.
+
+```csharp
+public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
+    {
+        let shouldKeep = string.IsNullOrEmpty(includePattern) || MatchWildcard(includePattern, path);
+        if (!shouldKeep)
+            return false;
+        return string.IsNullOrEmpty(excludePattern) || !MatchWildcard(excludePattern, path);
+    });
+```
+
+Thats better! Now lets get rid of this `if/else` clause and some parenthesis also.
+
+```csharp
+public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
+    (string.IsNullOrEmpty(includePattern) || MatchWildcard(includePattern, path)) &&
+    (string.IsNullOrEmpty(excludePattern) || !MatchWildcard(excludePattern, path));
+```
+
+So the complete snippet is now:
+
+```csharp
+public static ReadOnlySpan<char> StringToSpan(string s)
+    => new ReadOnlySpan<char>(s.ToCharArray());
+
+public static bool MatchWildcard(string pattern, string text)
+    => FileSystemName.MatchesSimpleExpression(StringToSpan(pattern), StringToSpan(text));
+
+public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
+    (string.IsNullOrEmpty(includePattern) || MatchWildcard(includePattern, path)) &&
+    (string.IsNullOrEmpty(excludePattern) || !MatchWildcard(excludePattern, path));
+
+public static IEnumerable<string> FilterByPattern(string includePattern, string excludePattern, IEnumerable<string> paths)
+    => paths.Where(patternPredicate);
+```
+
+Better :)
+
+Original post was in F# and can be read on [CodeReview](https://codereview.stackexchange.com/questions/261060/how-to-refactor-the-boolean-logic-of-this-f-function). The code comes from my open source project to clone GitLab organisation in one command line: Kamino! Check the [Pull Request](https://github.com/aloisdg/Kamino/pull/4/files).
