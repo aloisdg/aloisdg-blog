@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: "alois",
+    title: "aloisdgś blog",
     description: "Personal blog of alois de gouvello.",
     lang: "en",
     siteUrl: "https://aloisdg.netlify.app/",
@@ -15,6 +15,6 @@ module.exports = {
   },
   hero: { // used in hero section of main page ie. index.html.njk
     title: "Welcome to aloisdg's blog",
-    description: "Lets document what I face in my life."
+    description: "Lets document what I face in my daily dev life."
   }
 }
