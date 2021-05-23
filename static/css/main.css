@@ -214,6 +214,9 @@ body.dark .navbar__hamburger > svg {
 body.dark .section-title {
   color: #ccc;
 }
+code {
+  color: #ffa500;
+}
 .card-grid {
   display: grid;
   grid-auto-rows: auto;
