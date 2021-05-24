@@ -1,6 +1,6 @@
 ---
 title: Alias your Git
-date: 2021-05-23
+date: 2021-05-24
 description: my own set of Git aliases
 tags:
   - git
