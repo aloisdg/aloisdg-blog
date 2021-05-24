@@ -57,7 +57,7 @@ public static string PatternPredicate(string includePattern, string excludePatte
     });
 ```
 
-Thats better! Now let's get rid of this `if/else` clause and some parenthesis also.
+That's better! Now let's get rid of this `if/else` clause and some parenthesis also.
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
