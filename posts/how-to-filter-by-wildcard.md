@@ -23,7 +23,7 @@ I want to keep only paths matching a specific pattern and remove all paths match
 public static bool MatchesSimpleExpression (`ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = true);
 ```
 
-Small notable caveat: `MatchesSimpleExpression` play with `ReadOnlySpan<char>` instead of string. No problem, lets add a small converter:
+Small notable caveat: `MatchesSimpleExpression` plays with `ReadOnlySpan<char>` instead of string. No problem, let's add a small converter:
 
 ```csharp
 public static ReadOnlySpan<char> StringToSpan(string s)
@@ -37,7 +37,7 @@ public static IEnumerable<string> FilterByPattern(string includePattern, string 
     => paths.Where(patternPredicate);
 ```
 
-Finally lets write the `PatternPredicate`:
+Finally let's write the `PatternPredicate`:
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
