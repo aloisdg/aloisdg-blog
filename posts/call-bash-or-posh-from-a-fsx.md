@@ -37,7 +37,7 @@ let buildStartPosh cmd =
     startInfo
 ```
 
-Beside if you want to know if you are on windows or elsewhere, you can rely on:
+Besides if you want to know if you are on windows or elsewhere, you can rely on:
 
 ```fsharp
 let isWindows = RuntimeInformation.IsOSPlatform(OSPlatform.Windows)
