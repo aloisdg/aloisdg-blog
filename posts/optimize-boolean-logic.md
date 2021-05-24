@@ -15,7 +15,7 @@ I have a list of path I want to filter out:
     root/group2/subgroup2/project3
     root/group2/subgroup2/project4
 
-I want to keep only paths matching a specific pattern and remove all paths matching another specific pattern. We have a `MatchWildcard` method returning `true` if it is a match or `false` if it dont. Our paths are a plain `IEnumerable<string>`, so our main function will be:
+I want to keep only paths matching a specific pattern and remove all paths matching another specific pattern. We have a `MatchWildcard` method returning `true` if it is a match or `false` if it isn't. Our paths are a plain `IEnumerable<string>`, so our main function will be:
 
 ```csharp
 public static IEnumerable<string> FilterByPattern(string includePattern, string excludePattern, IEnumerable<string> paths)
@@ -30,7 +30,7 @@ public static IEnumerable<string> FilterByPattern(string includePattern, string 
 
 Our goal in this post is going to show how we can reduce and simplify the logic at work here.
 
-One more thing. Lets talk about [predicate](https://docs.microsoft.com/en-us/dotnet/api/system.predicate-1?view=net-5.0). A predicate is a function returning a boolean. Since the predicate host most of the logic, lets start by spliting the Predicate from the filter to work on it.
+One more thing. Let's talk about [predicate](https://docs.microsoft.com/en-us/dotnet/api/system.predicate-1?view=net-5.0). A predicate is a function returning a boolean. Since the predicate host most of the logic, let's start by spliting the Predicate from the filter to work on it.
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
@@ -45,7 +45,7 @@ public static IEnumerable<string> FilterByPattern(string includePattern, string 
     => paths.Where(patternPredicate);
 ```
 
-Alright now we will stop modifying `FilterByPattern` and focus on `PatternPredicate`. Since we are only dealing with boolean maybe there is a refactoring to do here. Lets switch from ternary to basic boolean logic.
+Alright now we will stop modifying `FilterByPattern` and focus on `PatternPredicate`. Since we are only dealing with boolean maybe there is a refactoring to do here. Let's switch from ternary to basic boolean logic.
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
@@ -57,7 +57,7 @@ public static string PatternPredicate(string includePattern, string excludePatte
     });
 ```
 
-Thats better! Now lets get rid of this `if/else` clause and some parenthesis also.
+Thats better! Now let's get rid of this `if/else` clause and some parenthesis also.
 
 ```csharp
 public static string PatternPredicate(string includePattern, string excludePattern, string path) =>
