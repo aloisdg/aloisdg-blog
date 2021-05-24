@@ -9,7 +9,7 @@ tags:
   - windows
 ---
 
-I use git mostly in command line. The main reason is to have error messages and an history of what I entered when I do something wrong. It helps me a lot. Writing `git status` a dozen time per feature is cumbersome. Lets use aliases.
+I use git mostly in command line. The main reason is to have error messages and an history of what I entered when I do something wrong. It helps me a lot. Writing `git status` a dozen time per feature is cumbersome. Let's use aliases.
 
 Back in the time I used to maintain my own list of aliases. In my old `.bashrc` you could find lines like:
 
