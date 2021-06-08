@@ -11,5 +11,4 @@ In France, we are taught british-oxfordish-fish & chipish english. So I know _by
 
 I will start using "learned" over "learnt" on a daily basis. "-ed" is already mostly the past tense mark in british english. Let's consider the american version as a feature istead of bug.
 
-
 [source](https://www.grammarly.com/blog/learned-learnt/)

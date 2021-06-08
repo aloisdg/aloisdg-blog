@@ -87,7 +87,6 @@ namer(1, ("2", (3, "chicken"))) |> printfn "%A"
 
 [Try it online!](https://tio.run/##bZBPawMhEMXvfopBCOxCKyS9BVLIJSHQUxN6KTlYM3ZtjS46OQTy3bf@WbqUxsOgzs/3nqPjo/IBh8EigYmHS28RqNQVg7TKXmyRDtcemxZuz/CK2qIi453Y7DsZ@twSu/ExY1nqE2lj0J4iNEVhCf7jq4UVTKJ3pd6kvVS7jIwSCVyHIK@C/IuJVB0CKtBWEqEDXbmaOCNCeZuFwckzhrHPmHSnenMvlNF/B1CTdkn@N@70q3QYzQuGNiK8F@7IWLWYPwAnjMTL0PpgHGkHfLbmE9DwBU/1KaGqM@obHW/b//ww/AA "F# (.NET Core) – Try It Online")
 
-And this is how I learned about the `and` operator.
+You can learn more about it over [here](https://docs.microsoft.com/en-us/archive/blogs/jomo_fisher/adventures-in-f-corecursion). And this is how I learned about the `and` operator.
 
 [question]: https://stackoverflow.com/q/60510868/1248177
-
