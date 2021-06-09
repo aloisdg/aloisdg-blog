@@ -33,11 +33,11 @@ let namer(tuple: obj) =
     then tuple |> getFields |> flatten
     else [tuple]
 
-namer(1, "test") |> printfn "%A"
-namer(1, ("2", (3, "chicken"))) |> printfn "%A"
+namer (1, "test") |> printfn "%A"
+namer (1, ("2", (3, "chicken"))) |> printfn "%A"
 ```
 
-I dont remember if it hits me when I wrote it but today it did. We are using `namer` in `flatten`'s `collect`. Let's change that.
+I don't remember if it hits me when I wrote it but today it did. We are using `namer` in `flatten`'s `collect`. Let's change that.
 
 ```fsharp
 let rec flatten fields =
@@ -53,7 +53,7 @@ Alright now we face a `error FS0039: The value or constructor 'namer' is not def
 
 ![morpheus meme with what if I told you that good practices could be mandatory caption][meme]
 
-In F#, this good practice is indeed mandatory.
+In F#, this good practice is indeed **mandatory**.
 
 The reason is that when the compiler sees `namer` in the body, it doesn’t know about the function because it hasn’t finished compiling it yet! Top to bottom is mandatory. So what are we going to do in our case? We can't put `namer` above `flatten` nor we can do the other way around. We want them at the same level. So, [how to have two methods calling each other?](https://stackoverflow.com/questions/680606/how-to-have-two-methods-calling-each-other) `let rec... and...` is the syntax we seek.
 
@@ -81,8 +81,8 @@ and namer (tuple: obj) =
     then tuple |> getFields |> flatten
     else [tuple]
 
-namer(1, "test") |> printfn "%A"
-namer(1, ("2", (3, "chicken"))) |> printfn "%A"
+namer (1, "test") |> printfn "%A"
+namer (1, ("2", (3, "chicken"))) |> printfn "%A"
 ```
 
 [Try it online!](https://tio.run/##bZBPawMhEMXvfopBCOxCKyS9BVLIJSHQUxN6KTlYM3ZtjS46OQTy3bf@WbqUxsOgzs/3nqPjo/IBh8EigYmHS28RqNQVg7TKXmyRDtcemxZuz/CK2qIi453Y7DsZ@twSu/ExY1nqE2lj0J4iNEVhCf7jq4UVTKJ3pd6kvVS7jIwSCVyHIK@C/IuJVB0CKtBWEqEDXbmaOCNCeZuFwckzhrHPmHSnenMvlNF/B1CTdkn@N@70q3QYzQuGNiK8F@7IWLWYPwAnjMTL0PpgHGkHfLbmE9DwBU/1KaGqM@obHW/b//ww/AA "F# (.NET Core) – Try It Online")
