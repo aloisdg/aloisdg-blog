@@ -8,7 +8,7 @@ tags:
   - til
 ---
 
-Today I learned about the F# `and` operator. tl;dr: it is used for co-recursivity.
+[Today I learned](til) about the F# `and` operator. tl;dr: it is used for co-recursivity.
 
 So on internet, someone was looking to [flatten nested tuples in F#][question]. Inspired by [others](https://stackoverflow.com/questions/2920094/how-can-i-convert-between-f-list-and-f-tuple) [Q&A](https://stackoverflow.com/questions/43919568/f-flatten-nested-tuples), I answered [it](https://stackoverflow.com/a/60512370/1248177). I mixed a bit of reflection in a recursion function to make it work:
 
@@ -49,7 +49,7 @@ let rec flatten fields =
 
 [Try it online!](https://tio.run/##bZBPawMhEMXvfopBCOxCK6S5BVLIJaGQUxp6KTlYO2ZtrC46OQT63bf@WbKUxsOgzm/ee6rjo/IBh8EigYmHS28RqNQVg7TKXmyRDtcemxZ@nmGP2qIi453YvHYy9LklXsZhxrLUCWlj0H5GaIrCEvzHVwsrmETvSr1Je6l2GRklErgOQV4F@Z2JVB0CKtBWEqEDXbmaOCNCeZuFwclvDGO/zpWbe6GM/vsBNWmX5G9xp1elw2heMLQR4b1wR8aqxfwBOGEkXj6tD8aRdsBnaz4BDX/iqS4Sqjqjzuh42/7nh@EX "F# (.NET Core) – Try It Online")
 
-Alright now we face a `error FS0039: The value or constructor 'namer' is not defined.`. This error is a feature. In programming, it is a good practice to order your functions to be read like a book (i.e from top to bottom). If a function `f` calls a function `g`, then `g` should be declared before `f`. Most popular languages dont care. Neither JavaScript nor C# at least. 
+Alright now we face an `error FS0039: The value or constructor 'namer' is not defined.`. This error is a feature. In programming, it is a good practice to order your functions to be read like a book (i.e from top to bottom). If a function `f` calls a function `g`, then `g` should be declared before `f`. Most popular languages dont care. Neither JavaScript nor C# at least. 
 
 ![morpheus meme with what if I told you that good practices could be mandatory caption][meme]
 
@@ -64,7 +64,7 @@ and g() =
     f()
 ```
 
-The new version is clearly DRY-er:
+The new version is clearly [DRY][dry]-er:
 
 ```fsharp
 let isTuple tuple =
@@ -88,6 +88,9 @@ namer (1, ("2", (3, "chicken"))) |> printfn "%A"
 [Try it online!](https://tio.run/##bZBPawMhEMXvfopBCOxCKyS9BVLIJSHQUxN6KTlYM3ZtjS46OQTy3bf@WbqUxsOgzs/3nqPjo/IBh8EigYmHS28RqNQVg7TKXmyRDtcemxZuz/CK2qIi453Y7DsZ@twSu/ExY1nqE2lj0J4iNEVhCf7jq4UVTKJ3pd6kvVS7jIwSCVyHIK@C/IuJVB0CKtBWEqEDXbmaOCNCeZuFwckzhrHPmHSnenMvlNF/B1CTdkn@N@70q3QYzQuGNiK8F@7IWLWYPwAnjMTL0PpgHGkHfLbmE9DwBU/1KaGqM@obHW/b//ww/AA "F# (.NET Core) – Try It Online")
 
 You can learn more about it over [here](https://docs.microsoft.com/en-us/archive/blogs/jomo_fisher/adventures-in-f-corecursion). And this is how I learned about the `and` operator.
+
+[dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[til]: https://aloisdg.netlify.app/posts/today-i-learned/
 
 [question]: https://stackoverflow.com/q/60510868/1248177
 
