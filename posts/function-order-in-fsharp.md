@@ -8,7 +8,7 @@ tags:
   - til
 ---
 
-[Today I learned](til) about the F# `and` operator. tl;dr: it is used for co-recursivity.
+[Today I learned][til] about the F# `and` operator. tl;dr: it is used for co-recursivity.
 
 So on internet, someone was looking to [flatten nested tuples in F#][question]. Inspired by [others](https://stackoverflow.com/questions/2920094/how-can-i-convert-between-f-list-and-f-tuple) [Q&A](https://stackoverflow.com/questions/43919568/f-flatten-nested-tuples), I answered [it](https://stackoverflow.com/a/60512370/1248177). I mixed a bit of reflection in a recursion function to make it work:
 
