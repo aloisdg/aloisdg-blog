@@ -216,6 +216,7 @@ body.dark .section-title {
 }
 code {
   color: #ffa500;
+  font-size: 130%;
 }
 .card-grid {
   display: grid;
