@@ -37,8 +37,15 @@ It is a great way to learn stuff that you though you already know. I love being 
 
 *[xkcd 386: Duty Calls](https://xkcd.com/386/)*
 
+Another example to showcase it: [typescript - How to use `(K | V)[][]` as `ReadonlyArray<[K, V]>` in a Map?](https://stackoverflow.com/questions/66713858/how-to-use-k-v-as-readonlyarrayk-v-in-a-map).
 
-Another example to showcase it: [typescript - How to use `(K | V)[][]` as `ReadonlyArray<[K, V]>` in a Map?](https://stackoverflow.com/questions/66713858/how-to-use-k-v-as-readonlyarrayk-v-in-a-map). Let's see one more Q&A-Style post. Here, more than one people volunteer to help:
+Don't go as far as posting intentionally wrong content to trigger answers. As far as I am concerned, the [Cunningham's Law](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law) works:
+
+> The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer.
+
+but on SO this can be seen as spam. Do your best and be honest with people looking to help you.
+
+Let's see one more Q&A-Style post. Here, more than one people volunteer to help:
 
 [![cs screenshot][cs]](https://stackoverflow.com/questions/60305035/linq-replace-values-until-first-x-value)
 
