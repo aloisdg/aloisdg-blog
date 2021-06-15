@@ -1,5 +1,5 @@
 ---
-title: Today I learnt
+title: Today I learned
 date: 2021-06-08
 description: or why reddit is not wrong about "learn"
 tags:
