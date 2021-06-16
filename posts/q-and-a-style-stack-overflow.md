@@ -6,7 +6,7 @@ tags:
   - stackoverflow
 ---
 
-One of the best feature of Stack Overflow is the ability to use it to spread homemade knowledge. We can answer our own question if we resolved it after posting or we can invent a problem to share our nice solution to the world directly, Q&A-style:
+One of the best feature of Stack Overflow is the ability to use it to spread homemade knowledge. We can answer our own question if we resolve it after posting or we can invent a problem to share our nice solution to the world directly, Q&A-style:
 
 [![Q&A-style][Q&A-style]](https://stackoverflow.com/questions/ask)
 
@@ -22,13 +22,13 @@ It is an easy way to share knowledge ~~and to farm some sweet karma~~. As Jeff A
 
 > To be crystal clear, it is not merely OK to ask and answer our own question, it is **explicitly encouraged**.
 
-Be sure to search for a duplicate first. Maybe someone will be kind enough to share one if we can't find one ourself:
+Be sure to search for a duplicate first. Maybe someone will be kind enough to share one if we can't find one ourselves:
 
 [![duplicate][duplicate]](https://stackoverflow.com/q/57754826/1248177)
 
 *[python - How to sort a list of tuple by second then by first? \[duplicate\]](https://stackoverflow.com/q/57754826/1248177)*
 
-Sometimes it is even better. An answerer way share a better answer than ours to our own question:
+Sometimes it is even better. An answerer may share a better answer than ours to our own question:
 
 [![gg torbonde!][better-than-ours]](https://stackoverflow.com/a/67969248/1248177)
 
@@ -48,23 +48,23 @@ Don't go as far as posting intentionally wrong content to trigger answers. As fa
 
 but on Stack Overflow this can be seen as spam. We should do our best and be honest with people looking to help us.
 
-Let's see one more Q&A-Style post. Here, more than one people volunteer to help:
+Let's see one more Q&A-Style post. Here, more than one people volunteered to help:
 
 [![cs screenshot][cs]](https://stackoverflow.com/questions/60305035/linq-replace-values-until-first-x-value)
 
 *[c# - Linq replace values until first X value](https://stackoverflow.com/questions/60305035/linq-replace-values-until-first-x-value)*
 
-Note that this one is quite special. I did not just answer to my own question once but twice! Yes we can compete against ourself and let voters elect their favorite! This is a great way to ask the community which implementation they prefer and a perfect Stack Overflow way to ask which of two solutions is the best. Let's go further. Let's host an open competition. We want to know what is the community choice between three angular solutions. Here comes the subject:
+Note that this one is quite special. I did not just answer my own question once but twice! Yes we can compete against ourselves and let voters elect their favorite! This is a great way to ask the community which implementation they prefer and a perfect Stack Overflow way to ask which of two solutions is the best. Let's go further. Let's host an open competition. We want to know what is the community choice between three angular solutions. Here comes the subject:
 
 [![ngfor screenshot][ngfor]](https://stackoverflow.com/questions/52533564/how-to-skip-the-first-and-the-last-item-in-a-ngfor/52533580)
 
 *[angular - How to skip the first and the last item in a *ngFor](https://stackoverflow.com/questions/52533564/how-to-skip-the-first-and-the-last-item-in-a-ngfor/52533580)*
 
-Right now, the vote is 5, 5 and 2. I already made my choice and ship the code, but feel free to vote for your candidate. It mays help someone else ~~and at worst I still get some sweet karma~~.
+Right now, the vote is 5, 5 and 2. I already made my choice and shipped the code, but feel free to vote for your candidate. It may help someone else ~~and at worst I still get some sweet karma~~.
 
-For fun here is another question from rpg.stackexchange.com where 4 of my own answers compete and we even had a challenger: *[How can I get a medium-size goat for my gnome?](https://rpg.stackexchange.com/questions/127357/how-can-i-get-a-medium-size-goat-for-my-gnome)*
+For fun here is another question from rpg.stackexchange.com where 4 of my own answers compete and we even have another challenger: *[How can I get a medium-size goat for my gnome?](https://rpg.stackexchange.com/questions/127357/how-can-i-get-a-medium-size-goat-for-my-gnome)*
 
-If you speak french, I did a D-EDGE Tech Meetup to share [A personal guide to Stack Overflow](https://www.youtube.com/watch?v=y1EFsgDBEus).
+If you speak french, I did a D-EDGE Tech Meetup to share [a personal guide to Stack Overflow](https://www.youtube.com/watch?v=y1EFsgDBEus).
 
 [duty]: https://imgs.xkcd.com/comics/duty_calls.png#dark
 
