@@ -39,17 +39,17 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 |   | Classical<br/>Technical<br/>Interview | Pet<br/>Project<br/>Interview |
 |---|:-:|:-:|
-| Written code is mostly useful<sup>1</sup>| ❌ | ✔️|
-| Candidate can't underperformed<sup>2</sup>| ❌ | ✔️ |
-| Candidate can have unlimited time<sup>3</sup> | ❌ | ✔️ |
-| Candidate can't cheat<sup>4</sup> | ⚖️ | ⚖️ |
-| Candidate is interested by the subject<sup>5</sup> | ❌ | ✔️ |
-| Candidate doesn't have to spend time just for you<sup>6</sup> | ❌ | ✔️ |
-| Company can assess devops knowledge<sup>7</sup> | ❌ | ✔️ |
-| Company can assess documentation writing skills<sup>8</sup> | ❌ | ⚖️ |
-| Company can mesure soft skills<sup>9</sup> | ⚖️ | ⚖️ |
-| Interview doesn't depend on any external services<sup>10</sup> | ❌ | ✔️ |
-| Interview scales with level<sup>11</sup> | ⚖️ | ✔️ |
+| Written code is mostly useful<sup>1</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Candidate can't underperformed<sup>2</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Candidate can have unlimited time<sup>3</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Candidate can't cheat<sup>4</sup> | ❌ | ❌ |
+| Candidate is interested by the subject<sup>5</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Candidate doesn't have to spend time just for you<sup>6</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Company can assess devops knowledge<sup>7</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Company can assess documentation writing skills<sup>8</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Company can mesure soft skills<sup>9</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Interview doesn't depend on any external services<sup>10</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Interview scales with level by itself<sup>11</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
 
 <sup>1</sup> Interview code is nixed. At worst, pet project have learning purpose.
 
@@ -57,7 +57,7 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 <sup>3</sup> No stress related to a running time. The project was done earlier.
 
-<sup>4</sup> In both cases a candidate can submit a code made with or by a acquaintance. Harder to falsify if the project is well-maintained. Note that pair programming exercise is the harder to cheat to.
+<sup>4</sup> In both cases a candidate can submit a code made with or by a acquaintance. Harder to falsify if the project is well-maintained though. Note that pair-programming exercise is the harder to cheat to.
 
 <sup>5</sup> Invert a binary tree or matching colorful shoes is not something most devs I know does for fun.
 
@@ -65,9 +65,9 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 <sup>7</sup> Most companies I know doesn't check if a candidate use git, a ci/cd pipeline, code coverage tool, *etc.* Now a candidate can show it!
 
-<sup>8</sup> Most companies I know doesn't check writing skills. If both public and private documentation tends to be limited, a short one is better than nothing. Documentation skills are scarced.
+<sup>8</sup> Most companies I know doesn't check writing skills. Documentation skills are scarced. If both public and private documentation tends to be limited, a short one is better than nothing. The pet project may be documented, it is quite rare that coding test is.
 
-<sup>9</sup> If the candidate's project has some traction, you may see how the candidate deals with issues, answers to question, reviews pull requests, etc.
+<sup>9</sup> This step is to assert technical skill, not soft ones. If the candidate's project has some traction, you may see how the candidate deals with issues, answers to question, reviews pull requests, etc. This can be great to look for.
 
 <sup>10</sup> Most companies I know pay a service like [Codility](https://www.codility.com/), [Codingame](https://www.codingame.com/start), [Hackerrank](https://www.hackerrank.com/) or [Leetcode](https://leetcode.com/) to handle the code assement.
 
