@@ -16,8 +16,7 @@ Most of the time it will be in one of those three forms:
 * Recorded clocked exercises,
 * Take-home coding exercises.
 
-Some candidates hate this kind of interview<sup>1</sup>.
-I won't try to compare each of them right now. I want to purpose the idea of another way to evaluate the technical level of a candidate.
+Some candidates hate this kind of interview<sup>1</sup>. I won't try to fix each of them. I want to purpose the idea of another way to evaluate the technical level of a candidate.
 
 <sup>1</sup> [I will not do your tech interview](https://medium.com/@ikeellis/i-will-not-do-your-tech-interview-80ba19c55883), [The Technical Interview Is Dead (And No One Should Mourn)](https://techcrunch.com/2013/06/22/the-technical-interview-is-dead/), [I hate interviews with technical grilling - A note to all managers/hiring personnel](https://www.reddit.com/r/sysadmin/comments/ipmtg0/i_hate_interviews_with_technical_grilling_a_note/), [The software developer job interview doesn’t work](https://sockpuppet.org/blog/2015/03/06/the-hiring-post/)
 
