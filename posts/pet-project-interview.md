@@ -37,8 +37,8 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 # A quick comparison
 
-|   | Classical Technical Interview | Pet Project Interview |
-|-------------------------------------------------------------|-------------------------------|-------------------|
+|   | Classical<br/>Technical<br/>Interview | Pet<br/>Project<br/>Interview |
+|---|:-:|:-:|
 | Written code is mostly useful<sup>1</sup>| ❌ | ✔️|
 | Candidate can't underperformed<sup>2</sup>| ❌ | ✔️ |
 | Candidate can have unlimited time<sup>3</sup> | ❌ | ✔️ |
