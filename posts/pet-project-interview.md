@@ -39,17 +39,17 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 |   | Classical<br/>Technical<br/>Interview | Pet<br/>Project<br/>Interview |
 |---|:-:|:-:|
-| Written code is mostly useful<sup>1</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Candidate can't underperformed<sup>2</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Candidate can have unlimited time<sup>3</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Written code is mostly useful<sup>1</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Candidate can't underperformed<sup>2</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Candidate can have unlimited time<sup>3</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
 | Candidate can't cheat<sup>4</sup> | ❌ | ❌ |
-| Candidate is interested by the subject<sup>5</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Candidate doesn't have to spend time just for you<sup>6</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Company can assess devops knowledge<sup>7</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Company can assess documentation writing skills<sup>8</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Company can mesure soft skills<sup>9</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Interview doesn't depend on any external services<sup>10</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
-| Interview scales with level by itself<sup>11</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" width="20" height="20"> |
+| Candidate is interested by the subject<sup>5</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Candidate doesn't have to spend time just for you<sup>6</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Company can assess devops knowledge<sup>7</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Company can assess documentation writing skills<sup>8</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Company can mesure soft skills<sup>9</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Interview doesn't depend on any external services<sup>10</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
+| Interview scales with level by itself<sup>11</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
 
 <sup>1</sup> Interview code is nixed. At worst, pet project have learning purpose.
 
