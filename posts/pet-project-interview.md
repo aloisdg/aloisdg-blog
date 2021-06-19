@@ -8,7 +8,7 @@ tags:
   - programming
 ---
 
-Most companies who looking to hire a software developer have an hiring process. Most of the time this hiring process has a technical interview. The goal of a technical interview is to show that you did not lie in your resume when you said that you know how to write in JavaScript and that you actually did read *Clean Code*. It is a place to solve problems, write tests, and to showoff your mastering of the `reduce` function. It is most importantly a lot of time spend for a company you may not even work with at the end.
+Most companies who looking to hire a software developer have an hiring process. Most of the time this hiring process has a technical interview. The goal of a technical interview is to show that a candidate did not lie in they resume when they said that they know how to write in JavaScript and that they actually did read *Clean Code*. It is a place to solve problems, write tests, and to showoff a mastering of the `reduce` function. It is most importantly a lot of time spend for a company a candidate may not even work with at the end.
 
 Most of the time it will be in one of those three forms:
 
