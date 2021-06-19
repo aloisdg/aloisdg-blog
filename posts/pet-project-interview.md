@@ -21,7 +21,7 @@ I won't try to compare each of them right now. I want to purpose the idea of ano
 
 <sup>1</sup> [I will not do your tech interview](https://medium.com/@ikeellis/i-will-not-do-your-tech-interview-80ba19c55883), [The Technical Interview Is Dead (And No One Should Mourn)](https://techcrunch.com/2013/06/22/the-technical-interview-is-dead/), [I hate interviews with technical grilling - A note to all managers/hiring personnel](https://www.reddit.com/r/sysadmin/comments/ipmtg0/i_hate_interviews_with_technical_grilling_a_note/), [The software developer job interview doesn’t work](https://sockpuppet.org/blog/2015/03/06/the-hiring-post/)
 
-# The Pet Project Interview
+## The alternative
 
 Instead of doing the classical technical interview chosen by the company, I think it would be nice to submit one or more personnal projects. Flexibility is key. The candidate should be able to make the choice. A company could say:
 
@@ -35,7 +35,7 @@ Like that you just save 66% of the developer time and with a quicker technical i
 
 Most creative jobs from architect to designer use portfolio. Generalize this idea in our field.
 
-# A quick comparison
+## A quick comparison
 
 |   | Classical<br/>Technical<br/>Interview | Pet<br/>Project<br/>Interview |
 |---|:-:|:-:|
@@ -73,24 +73,24 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 <sup>11</sup> Companies don't have to multiply tests as much for each level or each technology. We can expect from a senior dev to have more in quality/quantity to show than a junior.
 
-# Questions
+## Questions
 
-## What is the worst case?
+### What is the worst case?
 
 No one takes the option to show a pet project and you are still doing interview the old way. The worst case is the company current case.
 
-## Is a small portfolio a red flag?
+### Is a small portfolio a red flag?
 
 A company should not need to see thousands of LoC to have an idea of a developer level. The candidate just need a project to showcase what a code exercise of one to three hours would reveal. A diversified portfolio is better, but a short one doesn't mean a bad one. A small portfolio is not a red flag.
 
-## Does it encourage work outside of worktime?
+### Does it encourage work outside of worktime?
 
 A candidate can create a showoff project just for the case. They save an among of time proportional to the number of companies who will accept to judge them on it instead of using their off time to write a fizzbuzz. On the long run, the candidate don't have to work as much on they free time.
 
-## Will it favor more FOSS developers?
+### Will it favor more FOSS developers?
 
 Maybe, but they tend to [write better code anyway](https://web.archive.org/web/20160312052854/http://www.coverity.com/press-releases/coverity-scan-report-finds-open-source-software-quality-outpaces-proprietary-code-for-the-first-time/). If a candidate doesn't have a pet project to show, it say nothing about their real level though. They will just choose the classical path and this is fine.
 
-# Addendum
+## Addendum
 
 While searching informations for this article. I found [The Terrible Technical Interview](https://techcrunch.com/2015/03/21/the-terrible-technical-interview/) which introduce mainly the same idea as I. Good article. Read it too!
