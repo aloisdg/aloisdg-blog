@@ -1,7 +1,7 @@
 ---
-title: Pet Project Interview
+title: Personal Project Interview
 date: 2021-06-19
-description: or an alternative to a classical technical interview
+description: or an alternative to classical technical interview
 tags:
   - interview
   - career
@@ -22,7 +22,7 @@ Some candidates hate this kind of interview<sup>1</sup>. I won't try to fix each
 
 ## The alternative
 
-Instead of doing the classical technical interview chosen by the company, I think it would be nice to submit one or more personnal projects. Flexibility is key. The candidate should be able to make the choice. A company could say:
+Instead of doing the classical technical interview chosen by the company, I think it would be nice to submit one or more personnal projects. The candidate should be able to make the choice if they to showcase something or not. Flexibility is key. A company could say:
 
 > "We have three coding tests we want you to do. It will assess your level in C#, React and SQL. If you want you can replace any of them by one or more projects you did using one of the given technology.
 
@@ -36,7 +36,7 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 ## A quick comparison
 
-|   | Classical<br/>Technical<br/>Interview | Pet<br/>Project<br/>Interview |
+|   | Classical<br/>Technical<br/>Interview | Personal<br/>Project<br/>Interview |
 |---|:-:|:-:|
 | Written code is mostly useful<sup>1</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
 | Candidate can't underperformed<sup>2</sup>| ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
@@ -50,7 +50,7 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 | Interview doesn't depend on any external services<sup>10</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
 | Interview scales with level by itself<sup>11</sup> | ❌ | <img alt="✔️" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" class="emoji"> |
 
-<sup>1</sup> Interview code is nixed. At worst, pet project have learning purpose.
+<sup>1</sup> Interview code is nixed. At worst, a personal project have learning purpose.
 
 <sup>2</sup> No stress related to getting the job. The project was done earlier.
 
@@ -64,7 +64,7 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 <sup>7</sup> Most companies I know doesn't check if a candidate use git, a ci/cd pipeline, code coverage tool, *etc.* Now a candidate can show it!
 
-<sup>8</sup> Most companies I know doesn't check writing skills. Documentation skills are scarced. If both public and private documentation tends to be limited, a short one is better than nothing. The pet project may be documented, it is quite rare that coding test is.
+<sup>8</sup> Most companies I know doesn't check writing skills. Documentation skills are scarced. If both public and private documentation tends to be limited, a short one is better than nothing. The personal project may be documented, it is quite rare that coding test is.
 
 <sup>9</sup> This step is to assert technical skill, not soft ones. If the candidate's project has some traction, you may see how the candidate deals with issues, answers to question, reviews pull requests, etc. This can be great to look for.
 
@@ -76,7 +76,7 @@ Most creative jobs from architect to designer use portfolio. Generalize this ide
 
 ### What is the worst case?
 
-No one takes the option to show a pet project and you are still doing interview the old way. The worst case is the company current case.
+No one takes the option to show a personal project and you are still doing interview the old way. The worst case is the company current case.
 
 ### Is a small portfolio a red flag?
 
@@ -88,8 +88,33 @@ A candidate can create a showoff project just for the case. They save an among o
 
 ### Will it favor more FOSS developers?
 
-Maybe, but they tend to [write better code anyway](https://web.archive.org/web/20160312052854/http://www.coverity.com/press-releases/coverity-scan-report-finds-open-source-software-quality-outpaces-proprietary-code-for-the-first-time/). If a candidate doesn't have a pet project to show, it say nothing about their real level though. They will just choose the classical path and this is fine.
+Maybe, but they tend to [write better code anyway](https://web.archive.org/web/20160312052854/http://www.coverity.com/press-releases/coverity-scan-report-finds-open-source-software-quality-outpaces-proprietary-code-for-the-first-time/). If a candidate doesn't have a personal project to show, it say nothing about their real level though. They will just choose the classical path and this is fine.
 
 ## Addendum
 
 While searching informations for this article. I found [The Terrible Technical Interview](https://techcrunch.com/2015/03/21/the-terrible-technical-interview/) which introduce mainly the same idea as I. Good article. Read it too!
+
+-----
+
+I don't know any company who actually do that. Most companies find my own profile throught GitHub, GitLab or Stack Overflow. Most, even if they already know my work, still want to me do some exercises.
+
+
+
+- Pair Programming exercise:  
+    - Pros:
+        - more human
+        - the candidate meet one of its future coworker
+        - closer to real work
+        - hard to cheat
+    - Cons:
+        - you have to block one person
+        - the peer can have an impact on the candidate
+        - subject to peer biases
+        - can be stressful for the candidate
+        - hard to scale
+- Recorder clocked exercise:
+    - Pros:
+        - seems fair to candidate
+        - scale well
+    - Cons:
+        - can be stressful for the candidate
