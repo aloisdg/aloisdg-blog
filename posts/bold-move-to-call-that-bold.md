@@ -9,7 +9,7 @@ tags:
 
 ## The Secret
 
-I learned that it is quite common on Twitter and LinkedIn to rely on unicode to get __bold__ letters. An influencer on LinkedIn talk about it:
+I [learned](https://aloisdg.netlify.app/posts/today-i-learned/) that it is quite common on Twitter and LinkedIn to rely on unicode to get __bold__ letters. An influencer on LinkedIn talk about it:
 
 
 ![Top Secret Image][top-secret]
