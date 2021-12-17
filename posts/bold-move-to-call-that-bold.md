@@ -42,7 +42,7 @@ I guess that it is not great for SEO either but I have no proof of that. Any SEO
 
 ## So what's next?
 
-I would say stop doing that. It would be effective for the user, but if people are ready to (ab-)use unicode that way, we can say that they really need the style. __I dont blame them__. A solution would be to improve screen readers. They already lack fundings, but I guess that they could implement a [reverse logic](https://minaret.info/test/normalize.msp) to decode those "[homograph](https://blog.malwarebytes.com/101/2017/10/out-of-character-homograph-attacks-explained/)".
+I would say stop doing that. It would be effective for the user, but if people are ready to [(ab)use](https://news.ycombinator.com/item?id=18701928) unicode that way, we can say that they really need the style. __I dont blame them__. A solution would be to improve screen readers. They already lack fundings, but I guess that they could implement a [reverse logic](https://minaret.info/test/normalize.msp) to decode those "[homograph](https://blog.malwarebytes.com/101/2017/10/out-of-character-homograph-attacks-explained/)".
 
 Another solution would be to stop mixing design and content. The best solution, I think, is to encourage LinkedIn, Twitter and al to follow Reddit lead. Reddit is not quite famous in France but worldwide it is the 8th most visited website in 2020. How Reddit handle this issue? Simple, they allow the usage of Markdown.
 
