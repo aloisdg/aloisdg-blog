@@ -22,13 +22,13 @@ I [learned](https://aloisdg.netlify.app/posts/today-i-learned/) that it is quite
 
 The article goes on and present a [tool](http://qaz.wtf/u/convert.cgi?text=hello) to transform a text.
 
-First, yes it seems to work for you.  Without going technical, it is not because it looks like the same letter but bold that it is the case. Like an upper `i` is not a `l` nor a `1` even if it looks like one.
+First, yes it seems to work for you.  Without going technical, it is not because it looks like the same letter, but bold, that it is the case. Like an upper `i` is not a `l` nor a `1` even if it looks like one.
 
 ![pipe](/static/img/pipe.png)
 
 If you want the technical part this [blog post](https://ux.stackexchange.com/questions/118149/can-screen-readers-interpret-unicode-styles-fonts-such-as-bold-and-italics) and this [ux.se.com's thread](https://ux.stackexchange.com/questions/118149/can-screen-readers-interpret-unicode-styles-fonts-such-as-bold-and-italics) cover it well.
 
-Unfortunately doing so hide the text to users of assistive technology. Screen readers are notorious to need some help to work and here we are doing the opposite.
+Unfortunately, doing so hide the text to users of assistive technology. Screen readers are notorious to need some help to work and here we are doing the opposite.
 
 Ken C. Dodds showcased this problem perfeclty in a video on Twitter:
 
@@ -38,17 +38,17 @@ Ken C. Dodds showcased this problem perfeclty in a video on Twitter:
 
 I actually tried it myself and both Orca on Linux and Narrator on Windows failed the test.
 
-I guess that it is not great for SEO either but I have not proof of that. Any SEO expert reading this?
+I guess that it is not great for SEO either but I have no proof of that. Any SEO expert reading this?
 
 ## So what's next?
 
 I would say stop doing that. It would be effective for the user, but if people are ready to (ab-)use unicode that way, we can say that they really need the style. __I dont blame them__. A solution would be to improve screen readers. They already lack fundings, but I guess that they could implement a [reverse logic](https://minaret.info/test/normalize.msp) to decode those "[homograph](https://blog.malwarebytes.com/101/2017/10/out-of-character-homograph-attacks-explained/)".
 
-Another solution would be to stop mix design and content. The best solution, I think, is to pushed LinkedIn, Twitter and al to follow Reddit lead. Reddit is not quite famous in France but worldwide it is the 8th most visited website in 2020. So what did Reddit for this issue? They just allow user to use Markdown.
+Another solution would be to stop mixing design and content. The best solution, I think, is to encourage LinkedIn, Twitter and al to follow Reddit lead. Reddit is not quite famous in France but worldwide it is the 8th most visited website in 2020. How Reddit handle this issue? Simple, they allow the usage of Markdown.
 
 ## Markdown
 
-Markdown is a lightweight markup language for creating formatted text. Basically if you follow some guidelines, your text will be formatted as expected. No unicode shenanigans. For example
+Markdown is a lightweight markup language for creating formatted text. Basically, if you follow some guidelines, your text will be formatted as expected. No unicode shenanigans. For example
 
     __bold__ and **bold**
     
