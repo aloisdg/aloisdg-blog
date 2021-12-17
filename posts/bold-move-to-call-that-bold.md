@@ -56,12 +56,12 @@ will be visible as
 
 __bold__ and **bold**
 
-Markdown can fulfill a lot of need like formatting list or italic. [Check its entry on Wikipedia](
+Markdown can fulfill a lot of basic need like formatting list. It is a powerful tool to add to your belt. [Check its entry on Wikipedia](
 https://en.wikipedia.org/wiki/Markdown). Some of us are already familiar with this syntax because a lot of website like Messenger or Discord implements a subset of Markdown.
 
 ## Meanwhile
 
-Meanwhile if you really want to bold your text, I have something for you. Since most website offering to bold your text send your input to their server and wants to track you, I created a small privacy friendly alternative. This is still a work in progress but here you go: [https://aloisdg.github.io/bolderizer/](https://aloisdg.github.io/bolderizer/)
+Meanwhile, if you really want to bold your text, I have something for you. Since most website offering to bold your text send your input to their server and want to track you, I created a small privacy friendly alternative. This is still a work in progress but here you go: [https://aloisdg.github.io/bolderizer/](https://aloisdg.github.io/bolderizer/)
 .
 
 [![screenshot][bolderizr-screenshot]](https://aloisdg.github.io/bolderizer/)
