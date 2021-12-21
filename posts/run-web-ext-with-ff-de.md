@@ -1,5 +1,5 @@
 ---
-title: Run web-ext with Firefox Developer Edition
+title: Run web-ext with Firefox DE
 date: 2021-12-21
 description: Run web-ext with Firefox Developer Edition under GNU/Linux
 tags:
