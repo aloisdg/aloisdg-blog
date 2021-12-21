@@ -39,7 +39,7 @@ Now we can run
 
 And voilà.
 
-![screenshot](web-ext-ff-de.png)
+![screenshot](/static/img/web-ext-ff-de.png)
 
 
 Also published on [unix.stackexchange.com](https://unix.stackexchange.com/questions/683321/how-to-run-web-ext-with-firefox-de-under-linux/683322#683322)
