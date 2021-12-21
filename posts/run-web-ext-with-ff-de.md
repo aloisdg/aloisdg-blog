@@ -23,5 +23,7 @@ Now we can run
 
 And voilà.
 
-[Using web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/#using-web-ext-section)
-[which](https://unix.stackexchange.com/questions/19369/how-to-find-the-installation-path-for-a-software-under-linux)
+
+Also published on [unix.stackexchange.com](https://unix.stackexchange.com/questions/683321/how-to-run-web-ext-with-firefox-de-under-linux/683322#683322)
+
+source: [Using web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/#using-web-ext-section), [which](https://unix.stackexchange.com/questions/19369/how-to-find-the-installation-path-for-a-software-under-linux)
