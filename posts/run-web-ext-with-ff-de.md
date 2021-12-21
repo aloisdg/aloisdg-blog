@@ -1,6 +1,6 @@
 ---
 title: Run web-ext with Firefox Developer Edition
-date: 2021-12-17
+date: 2021-12-21
 description: Run web-ext with Firefox Developer Edition under GNU/Linux
 tags:
   - extension
