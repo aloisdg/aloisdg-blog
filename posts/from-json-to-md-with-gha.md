@@ -8,7 +8,6 @@ tags:
   - markdown
 ---
 
-# Generate a Markdown Table from a JSON with  a GitHub Action
 
 - In your Markdown, say `README.md`, add the following comment to indicate where the generation should be:
 
