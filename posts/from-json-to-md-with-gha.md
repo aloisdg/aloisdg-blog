@@ -8,6 +8,10 @@ tags:
   - markdown
 ---
 
+[Separation of content and presentation](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation) is one of my main pet peeve. Lets see how we can insert json data into a Markdown instead of harcoded them.
+
+You can look at a plain repository to see a demo of this post [json-to-md](https://github.com/aloisdg/json-to-md).
+
 ## The Markdown
 
 In your Markdown, say `README.md`, add the following comment to indicate where the generation should be:
