@@ -8,15 +8,18 @@ tags:
   - markdown
 ---
 
+## The Markdown
 
-- In your Markdown, say `README.md`, add the following comment to indicate where the generation should be:
+In your Markdown, say `README.md`, add the following comment to indicate where the generation should be:
 
 ```html
 <!-- MARKDOWN-AUTO-DOCS:START (JSON_TO_HTML_TABLE:src=./data.json) -->
 <!-- MARKDOWN-AUTO-DOCS:END -->
 ```
 
-- Add a `data.json` with whatever data you want to insert in your Markdown:
+## The JSON
+
+Add a `data.json` with whatever data you want to insert in your Markdown:
 
 ```json
 [
@@ -41,10 +44,11 @@ tags:
 ]
 ```
 
+## The Action 
 
 - Create a `.github/workflows/` directory in your repository if this directory does not already exist.
 - In the `.github/workflows/` directory, create a file named `markdown-from-json.yml`.
-- Copy the following YAML contents into the `markdown-from-json.yml` file:
+- Copy the following YAML content into the `markdown-from-json.yml` file:
 
 ```yaml
 name: markdown-from-json
@@ -62,15 +66,15 @@ jobs:
             # Optional output file paths, defaults to '[./README.md]'.
             output_file_paths: '[./README.md]'
 
-            # Categories to automatically sync or transform its contents in the markdown files.
+            # Categories to automatically sync or transform its content in the markdown files.
             # Defaults to '[code-block,json-to-html-table,workflow-artifact-table]'
             categories: 'json-to-html-table'
 ```
 
-
+And voilà! You can check your Markdown again. It should be filled with a generated table.
 
 source:
-* https://github.com/dineshsonachalam/repo-using-markdown-autodocs
-* https://github.com/dineshsonachalam/markdown-autodocs
-* https://dev.to/dineshsonachalam/a-github-action-that-automatically-generates-updates-markdown-content-like-your-readme-md-from-external-or-remote-files-hp7
-* https://docs.github.com/en/actions/quickstart
+* <https://github.com/dineshsonachalam/repo-using-markdown-autodocs>
+* <https://github.com/dineshsonachalam/markdown-autodocs>
+* <https://dev.to/dineshsonachalam/a-github-action-that-automatically-generates-updates-markdown-content-like-your-readme-md-from-external-or-remote-files-hp7>
+* <https://docs.github.com/en/actions/quickstart>
