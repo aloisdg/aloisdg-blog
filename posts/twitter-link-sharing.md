@@ -8,6 +8,7 @@ tags:
   - privacy
   - performance
   - accessibility
+  - extension
 ---
 
 Let's say that someone share a Twitter link. Curious, you open it to face this
