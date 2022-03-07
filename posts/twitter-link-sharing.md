@@ -23,7 +23,7 @@ A good solution for that is to use the Threadreader app:
 
 But unless you have a good adblocker (e.g. [uBlock Origin](https://ublockorigin.com/)), you still wont have a distracting-free enough experience. Enter Nitter.
 
-Nitter is a privacy friendly frontend to Twitter that yanks out all the code necessary to track your behavior.
+Nitter is a privacy friendly frontend to Twitter that yanks out all the code necessary to track your behavior. By the way, any Twitter post can be open with Nitter. Replace `twitter.com/` with `nitter.net` to use it.
 
 ![nitter]
 
@@ -41,13 +41,7 @@ or as raw data:
 
 Now what? Should you ditch everything and use Nitter? I dont think though. If you send a link to someone who, you know it, is a Twitter user. Dont change anything. However, if you want to share a Twitter thread to a community or to a channel which could include non twitter user, please consider Nitter.
 
-That's said Nitter is not quite famous yet. Meanwhile, you can redirect automatically all your Twitter link to Nitter by installing the browser extension [Privacy Redirect] by Simon Brazell. The source code is provided under GPLv3. This add-on is available on all major browser:
-
-[![Firefox Add-on](https://raw.githubusercontent.com/SimonBrazell/privacy-redirect/master/src/assets/images/badge-amo.png)](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/)
-[![Chrome Extension](https://raw.githubusercontent.com/SimonBrazell/privacy-redirect/master/src/assets/images/badge-chrome.png)](https://chrome.google.com/webstore/detail/privacy-redirect/pmcmeagblkinmogikoikkdjiligflglb)
-[![Edge Extension](https://github.com/SimonBrazell/privacy-redirect/raw/master/src/assets/images/badge-ms.png)](https://microsoftedge.microsoft.com/addons/detail/privacy-redirect/elnabkhcgpajchapppkhiaifkgikgihj)
-
-and a [fork](https://apps.apple.com/us/app/privacy-redirect/id1578144015) is available for Safari.
+That's said Nitter is not quite famous yet. Meanwhile, you can redirect automatically all your Twitter link to Nitter by installing the browser extension [Privacy Redirect] by Simon Brazell. The source code is provided under GPLv3. This add-on is officialy available on: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/), [Chrome](https://chrome.google.com/webstore/detail/privacy-redirect/pmcmeagblkinmogikoikkdjiligflglb) and [Edge](https://microsoftedge.microsoft.com/addons/detail/privacy-redirect/elnabkhcgpajchapppkhiaifkgikgihj). A [fork](https://apps.apple.com/us/app/privacy-redirect/id1578144015) is available for Safari.
 
 Last thing, Nitter is hosted by a lot of different entities and so can you. If one instance fail you too much, you can remove it in the settings:
 
