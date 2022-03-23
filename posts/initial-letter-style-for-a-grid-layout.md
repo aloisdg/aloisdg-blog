@@ -62,6 +62,6 @@ How it works:
  3. The [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) property sets the height to be a square.
  4. The [gap](https://developer.mozilla.org/en-US/docs/Web/CSS/gap) property sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap. (It doesn't apply to the area between items and the container.)
 
-[Try it Online!](https://jsfiddle.net/8uv3t6nc/)
+[Try it Online!](https://jsbin.com/biteyarila/edit?html,css,output)
 
 [Answer format inspired by](https://stackoverflow.com/questions/43124275/how-can-i-make-a-div-span-multiple-rows-and-columns-in-a-grid) [PaulCo's answer](https://stackoverflow.com/q/43124275/1248177).
