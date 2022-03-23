@@ -8,11 +8,11 @@ tags:
   - programming
 ---
 
-How could we achieve the following using CSS grid?
+How could we achieve the following using CSS grid? This question was originaly asked on [Stack Overflow](https://stackoverflow.com/questions/71588209/how-would-i-achieve-the-following-using-css-grid?noredirect=1#comment126524204_71588209).
 
 ![screenshot demoing the expected output](https://i.stack.imgur.com/hf2DJ.png)
 
-Let's go.
+Here is my answer:
 
 The HTML here is quite boring:
 
