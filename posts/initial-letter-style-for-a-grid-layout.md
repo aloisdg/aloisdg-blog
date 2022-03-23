@@ -16,7 +16,7 @@ Let's go.
 
 The HTML here is quite boring:
 
-```HTML
+```html
 <div>1</div>
 <div>2</div>
 <div>3</div>
@@ -33,7 +33,7 @@ The HTML here is quite boring:
 
 but the CSS is where the fun is:
 
-```CSS
+```css
 body {
   display: grid;
   gap: 10px;
