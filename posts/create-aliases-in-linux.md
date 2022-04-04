@@ -4,6 +4,7 @@ date: 2022-04-04
 description: Creating aliases is an easy and quick process. Let's see how.
 tags:
   - linux
+  - bash
 ---
 
 
