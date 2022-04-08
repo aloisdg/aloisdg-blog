@@ -1,5 +1,5 @@
 ---
-title: what chair do I use?
+title: What chair do I use?
 date: 2022-04-08
 description: plot twist I don't use a chair
 tags:
