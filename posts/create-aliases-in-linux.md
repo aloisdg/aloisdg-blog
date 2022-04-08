@@ -18,7 +18,7 @@ $ alias shortName="really long name"
 Here is an actual example:
 
 ```
-$ alias ll=”ls -alF”
+$ alias ll="ls -alF"
 ```
 So open your configuration file and add:
 
