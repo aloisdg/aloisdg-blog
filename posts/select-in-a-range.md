@@ -16,7 +16,7 @@ Our goal is to set `pink` as `background-color` of a range going from the third 
 
 We will start with a [MCVE](https://github.com/d-edge/foss-acronyms), the HTML will be `ol>li*9>{test}`:
 
-```HTML
+```html
 <ol>
   <li>test</li>
   <li>test</li>
@@ -35,7 +35,7 @@ To achieve our goal will use `:nth-child()`:
 
 In fact, we will use it twice:
 
-```CSS
+```css
 li:nth-child(n+3):nth-child(-n+7){
     background-color: pink;
 }
