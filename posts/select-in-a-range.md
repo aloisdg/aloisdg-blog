@@ -36,7 +36,7 @@ To achieve our goal will use `:nth-child()`:
 In fact, we will use it twice:
 
 ```css
-li:nth-child(n+3):nth-child(-n+7){
+li:nth-child(n+3):nth-child(-n+7) {
     background-color: pink;
 }
 ```
@@ -49,8 +49,8 @@ and
 * `:nth-child(n+3):nth-child(-n+7)`: Represents the intersection of both (i.e `[3..7]`)
 
 
-```CSS
-li:nth-child(n+start):nth-child(-n+end){
+```css
+li:nth-child(n+start):nth-child(-n+end) {
     background-color: pink;
 }
 ```
