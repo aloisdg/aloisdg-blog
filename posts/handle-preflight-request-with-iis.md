@@ -1,6 +1,6 @@
 ---
 title: Handle preflight request with IIS
-date: 2021-12-17
+date: 2022-09-06
 description: or a list of try and missed to configure CORS on IIS
 tags:
   - server
