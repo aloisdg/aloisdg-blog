@@ -20,7 +20,7 @@ Note that this regex is a quick heuristic, but a lot of valid email are not supp
 
 Thanksfully in dotnet we have a builtin to avoid such shenaningans: [`MailAddress.TryCreate`](https://docs.microsoft.com/en-us/dotnet/api/system.net.mail.mailaddress.trycreate?view=net-6.0).
 
-```C#
+```csharp
 public static void Main()
 {
 	var source = @"Christine SOULES <c.soules@jardel.eu>";
