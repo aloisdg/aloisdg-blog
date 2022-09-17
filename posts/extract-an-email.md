@@ -23,7 +23,7 @@ Thanksfully in dotnet we have a builtin to avoid such shenaningans: [`MailAddres
 ```csharp
 public static void Main()
 {
-	var source = @"Christine SOULES <c.soules@jardel.eu>";
+	var source = @"Jane Doe <j.doe@example.com>";
 	var success = System.Net.Mail.MailAddress.TryCreate(source, out var mailAdress);
 	(success ? mailAdress.Address : null).Dump();
 }
