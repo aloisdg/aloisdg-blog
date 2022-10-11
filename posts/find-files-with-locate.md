@@ -8,7 +8,7 @@ tags:
   - bash
 ---
 
-Whenever I am looking for a file my first reflex was to use the [`find`](https://www.mankier.com/1/find) command. After all, it was made to do just that: search for files in a directory hierarchy.
+Whenever I am looking for a file, my first reflex is to use the [`find`](https://www.mankier.com/1/find) command. After all, it was made to do just that: search for files in a directory hierarchy.
 
 ```bash
 find . -name "*rib*pdf"
@@ -26,7 +26,7 @@ locate "*rib*pdf"
 
 My current distribution already has it. If yours do not, you can search for the package `mlocate`.
 
-I am aware of [`fd`](https://github.com/sharkdp/fd), but I did not try it yet. It mays be even better.
+I am aware of [`fd`](https://github.com/sharkdp/fd), but I did not try it yet. It may be even better.
 
 source:
 - [How can I recursively find all files in current and subfolders based on wildcard matching?](https://stackoverflow.com/questions/5905054/how-can-i-recursively-find-all-files-in-current-and-subfolders-based-on-wildcard)
