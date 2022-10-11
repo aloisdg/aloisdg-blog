@@ -24,7 +24,7 @@ To my `find` issue, I found a solution: `locate`.
 locate "*rib*pdf"
 ```
 
-My current distribution already had it. If yours do not, you can search for the package `mlocate`.
+My current distribution already has it. If yours do not, you can search for the package `mlocate`.
 
 I am aware of [`fd`](https://github.com/sharkdp/fd), but I did not try it yet. It mays be even better.
 
